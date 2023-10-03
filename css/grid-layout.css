@@ -1,36 +1,39 @@
-body {
-    background-image: url(lbj.png);
-    background-size: cover;
-    opacity: 0.5;
-}
 
 .container {
+    display: grid;
     padding: 20px;
+    opacity: 1;
+
 }
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    
+    gap: 40px;
 }
 
 .grid-left,
 .grid-right {
     padding: 20px;
+    background-color: cyan;
+    box-shadow: 10px 10px;
 }
 
 .grid-right {
-    display: grid;
     grid-template-rows: 1fr 1fr;
+    box-shadow: 10px 10px;
 }
 
 .top-row,
 .bottom-row {
     padding: 20px;
+    font-weight: bold;
+    box-shadow: 10px 10px;
 }
 
 .bottom {
-    display: grid;
+    text-align: center;
     padding: 20px;
+    background-color: cyan;
+    box-shadow: 10px 10px;
 }
